@@ -33,11 +33,8 @@ Connexion à la base de données pour persistances des données.
 ## Démonstration vidéo
 
 Une vidéo montrant l’utilisation de l’application peut être incluse ici :
-<video width="640" height="360" controls>
-  <source src="https://github.com/laouysalma/AtelierAuto/blob/main/demo.mp4?raw=true" type="video/mp4">
-  Votre navigateur ne supporte pas la lecture de vidéos.
-</video>
-https://drive.google.com/file/d/1eg_nTmogGUYd0QM080zinNWPlYfWTCBo/view?usp=sharing
+[Regarder la démonstration vidéo](https://drive.google.com/file/d/1eg_nTmogGUYd0QM080zinNWPlYfWTCBo/view?usp=sharing)
+
 
 ## Base de donnees 
 ``` SQL
