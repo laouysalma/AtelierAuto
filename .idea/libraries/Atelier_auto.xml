@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Atelier_auto">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/Atelier_auto.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/mysql-connector-java-5.1.23-bin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
