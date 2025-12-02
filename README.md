@@ -14,7 +14,93 @@ Le projet est organisé en plusieurs couches :
 - **services/** : Logique métier.  
 - **ui/** : Interfaces graphiques Swing et point d’entrée `Main.java`.  
 - **images/** : Ressources graphiques (icônes, logos…).
-
+Structure réelle du projet
+Atelier_auto/
+│
+├── .idea/                              # Configuration IntelliJ IDEA
+│   └── libraries/                      # Dépendances IDEA
+│
+├── src/
+│   ├── app/
+│   │   └── AppTest.java
+│   │
+│   ├── connexion/
+│   │   ├── ConnectionManager.java
+│   │   ├── DatabaseConfig.java
+│   │   └── JDBCConnection.java
+│   │
+│   ├── dao/
+│   │   ├── ClientDAO.java
+│   │   ├── VehiculeDAO.java
+│   │   ├── ReparationDAO.java
+│   │   ├── UtilisateurDAO.java
+│   │   └── BaseDAO.java
+│   │
+│   ├── entities/
+│   │   ├── Client.java
+│   │   ├── Vehicule.java
+│   │   ├── Reparation.java
+│   │   └── Utilisateur.java
+│   │
+│   ├── services/
+│   │   ├── ClientService.java
+│   │   ├── VehiculeService.java
+│   │   ├── ReparationService.java
+│   │   ├── UtilisateurService.java
+│   │   └── ServiceFactory.java
+│   │
+│   ├── ui/
+│   │   ├── Main.java
+│   │   ├── LoginFrame.java
+│   │   ├── DashboardFrame.java
+│   │   ├── ClientFrame.java
+│   │   ├── VehiculeFrame.java
+│   │   ├── ReparationFrame.java
+│   │   ├── UtilityUI.java
+│   │ 
+│
+│   │
+│   └── images/
+│       ├── logo.png
+│       ├── icon_client.png
+│       ├── icon_vehicule.png
+│       ├── icon_reparation.png
+│       └── icon_user.png
+│
+├── build/                              # Fichiers de compilation
+│   ├── classes/                        # Classes compilées (.class)
+│   │   ├── app/
+│   │   ├── connexion/
+│   │   ├── dao/
+│   │   ├── entities/
+│   │   ├── images/
+│   │   ├── services/
+│   │   └── ui/
+│   ├── empty/
+│   └── generated-sources/
+│       └── ap-source-output/
+│
+├── dist/                               #  Distribution
+│   ├── Atelier_auto.jar                # JAR exécutable
+│   └── lib/                            # Dépendances JAR
+│       └── mysql-connector-java-*.jar
+│
+├── out/                                # Sortie compilée (IntelliJ)
+│   └── production/
+│       └── Atelier_auto/
+│           ├── app/
+│           ├── connexion/
+│           ├── dao/
+│           ├── entities/
+│           └── services/
+│
+├── nbproject/                          # Configuration NetBeans
+│   └── private/                        # Fichiers privés
+│
+├── Atelier_auto.iml                    # Configuration IntelliJ IDEA
+├── build.xml                           # Configuration Ant
+├── manifest.mf                         # Manifest JAR
+└── README.md                           # Documentation
 ## Fonctionnalités principales
 
 Gestion des clients et de leurs véhicules.
