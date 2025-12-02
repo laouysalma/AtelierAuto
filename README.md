@@ -33,7 +33,6 @@ Connexion à la base de données pour persistances des données.
 ## Démonstration vidéo
 
 Une vidéo montrant l’utilisation de l’application peut être incluse ici :
-[Regarder la vidéo](https://github.com/ton_utilisateur/ton_projet/blob/main/demo.mp4?raw=true)
 https://drive.google.com/file/d/1eg_nTmogGUYd0QM080zinNWPlYfWTCBo/view?usp=sharing
 
 ## Base de donnees 
