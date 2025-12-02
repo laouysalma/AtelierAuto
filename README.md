@@ -16,7 +16,9 @@ Le projet est organisé en plusieurs couches :
 - **images/** : Ressources graphiques (icônes, logos…).
 
 
-Structure réelle du projet
+## Structure réelle du projet
+
+
 Atelier_auto/
 │
 ├── .idea/                              # Configuration IntelliJ IDEA
