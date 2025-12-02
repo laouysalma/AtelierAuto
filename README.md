@@ -14,6 +14,8 @@ Le projet est organisé en plusieurs couches :
 - **services/** : Logique métier.  
 - **ui/** : Interfaces graphiques Swing et point d’entrée `Main.java`.  
 - **images/** : Ressources graphiques (icônes, logos…).
+
+
 Structure réelle du projet
 Atelier_auto/
 │
