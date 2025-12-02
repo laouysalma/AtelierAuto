@@ -1,6 +1,7 @@
 ## Atelier_auto – Gestion des réparations (Java)
 
-Atelier_auto est une application Java Desktop développée avec NetBeans et Swing, permettant la gestion complète des réparations de véhicules. Le projet suit une architecture proche du MVC, utilise des services pour la logique métier et est connecté à une base de données JDBC.
+Atelier_auto est une application Java Desktop développée avec NetBeans et Swing, permettant la gestion complète des réparations de véhicules.
+Le projet suit une architecture proche du MVC, utilise des services pour la logique métier et est connecté à une base de données JDBC.
 ## Structure du projet
 Atelier_auto
 ├── .idea/
