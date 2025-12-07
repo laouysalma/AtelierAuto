@@ -29,7 +29,8 @@ Gestion centralisée via une interface graphique intuitive.
 
 Connexion à la base de données pour persistances des données.
 ## MCD (Modèle Conceptuel de Données)
-![image alt](https://github.com/laouysalma/AtelierAuto/blob/main/mcd.jpg?raw=true)
+![image alt]
+<img width="914" height="396" alt="image" src="https://github.com/user-attachments/assets/b677a120-9f90-4996-b09c-3a0bff722428" />
 
 
 ## Démonstration vidéo
