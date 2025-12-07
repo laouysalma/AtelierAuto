@@ -56,8 +56,8 @@ CREATE TABLE IF NOT EXISTS client (
 #Table: utilisateur
 CREATE TABLE IF NOT EXISTS utilisateur (
   id INT(11) NOT NULL AUTO_INCREMENT,
-  nom VARCHAR(50) DEFAULT NULL,
-  prenom VARCHAR(50) DEFAULT NULL,
+  nom VARCHAR(50),
+  prenom VARCHAR(50),
   email VARCHAR(100) NOT NULL,
   password VARCHAR(255) NOT NULL,
   date_creation TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -77,17 +77,23 @@ CREATE TABLE IF NOT EXISTS vehicule (
     REFERENCES client (id_client) ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
-#Table: reparation
+# Nouvelle structure : reparation
 CREATE TABLE IF NOT EXISTS reparation (
-  id_reparation INT(11) NOT NULL AUTO_INCREMENT,
+  id_client INT(11) NOT NULL,
   immatricule VARCHAR(50) NOT NULL,
   date DATE NOT NULL,
   type VARCHAR(60) NOT NULL,
   cout FLOAT NOT NULL,
-  PRIMARY KEY (id_reparation),
-  KEY fk_vehicule_repare (immatricule),
-  CONSTRAINT fk_vehicule_repare FOREIGN KEY (immatricule) 
-    REFERENCES vehicule (immatricule) ON UPDATE CASCADE
+
+  # Clé primaire composite
+  PRIMARY KEY (id_client, immatricule, date),
+
+  # Foreign keys
+  CONSTRAINT fk_rep_client FOREIGN KEY (id_client) 
+      REFERENCES client(id_client) ON UPDATE CASCADE,
+
+  CONSTRAINT fk_rep_vehicule FOREIGN KEY (immatricule) 
+      REFERENCES vehicule(immatricule) ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 ```
 
