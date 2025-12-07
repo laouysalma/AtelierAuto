@@ -92,7 +92,11 @@ CREATE TABLE IF NOT EXISTS reparation (
   CONSTRAINT fk_rep_client FOREIGN KEY (id_client) 
       REFERENCES client(id_client) ON UPDATE CASCADE,
 
-  CONSTRAINT fk_rep_vehicule FOREIGN KEY (immatricule) 
+  CONSTRAINT fk_rep_vehicule FO
+
+https://github.com/user-attachments/assets/306da41e-347e-431e-a359-183153815cfe
+
+REIGN KEY (immatricule) 
       REFERENCES vehicule(immatricule) ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 ```
