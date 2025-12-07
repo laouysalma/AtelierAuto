@@ -1,5 +1,5 @@
 
-https://github.com/user-attachments/assets/ddd0c1a4-d90a-4238-8456-8939d945258f
+
 ## Atelier_auto – Gestion des réparations (Java)
 
 Atelier_auto est une application Java Desktop développée avec NetBeans et Swing, permettant la gestion complète des réparations de véhicules.
@@ -38,8 +38,8 @@ Connexion à la base de données pour persistances des données.
 ## Démonstration vidéo
 
 Une vidéo montrant l’utilisation de l’application peut être incluse ici :
-[Regarder la démonstration vidéo](https://drive.google.com/file/d/1eg_nTmogGUYd0QM080zinNWPlYfWTCBo/view?usp=sharing)
-
+[Regarder la démonstration vidéo]
+(https://github.com/user-attachments/assets/ddd0c1a4-d90a-4238-8456-8939d945258f)
 
 ## Base de donnees 
 ``` SQL
