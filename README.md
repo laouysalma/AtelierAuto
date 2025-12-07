@@ -39,7 +39,11 @@ Connexion à la base de données pour persistances des données.
 
 Une vidéo montrant l’utilisation de l’application peut être incluse ici :
 [Regarder la démonstration vidéo]
-(https://github.com/user-attachments/assets/ddd0c1a4-d90a-4238-8456-8939d945258f)
+
+
+https://github.com/user-attachments/assets/7ee1a971-43a4-4fd1-93b9-5c69c43411aa
+
+
 
 ## Base de donnees 
 ``` SQL
