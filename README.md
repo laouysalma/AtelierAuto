@@ -18,6 +18,9 @@ Le projet est organisé en plusieurs couches :
 - **ui/** : Interfaces graphiques Swing et point d’entrée `Main.java`.  
 - **images/** : Ressources graphiques (icônes, logos…).
 
+- 
+<img width="1536" height="1024" alt="Architecture (2)" src="https://github.com/user-attachments/assets/620462ff-8ffe-4fce-9485-9dc4d06210db" />
+
 
 
 ## Fonctionnalités principales
