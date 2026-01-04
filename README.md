@@ -17,8 +17,6 @@ Le projet est organisé en plusieurs couches :
 - **services/** : Logique métier.  
 - **ui/** : Interfaces graphiques Swing et point d’entrée  
 - **images/** : Ressources graphiques (icônes, logos…).
-
-- 
 ![Architecture](https://github.com/laouysalma/AtelierAuto/blob/main/Architecture.png?raw=true)
 
 
@@ -43,7 +41,8 @@ Une vidéo montrant l’utilisation de l’application peut être incluse ici :
 ![Regarder la démonstration vidéo]
 
 
-https://github.com/laouysalma/AtelierAuto/raw/refs/heads/main/build/classes/entities/AtelierAuto_v3.1
+
+https://github.com/user-attachments/assets/0d1da6a0-178b-453e-9444-71cc9a99eb49
 
 
 
