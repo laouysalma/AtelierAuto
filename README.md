@@ -35,12 +35,12 @@ Gestion centralisée via une interface graphique intuitive.
 
 Connexion à la base de données pour persistances des données.
 ## MCD (Modèle Conceptuel de Données)
-[! MCD]( https://github.com/laouysalma/AtelierAuto/blob/main/mcd.jpg?raw=true)
+![MCD]( https://github.com/laouysalma/AtelierAuto/blob/main/mcd.jpg?raw=true)
 
 ## Démonstration vidéo
 
 Une vidéo montrant l’utilisation de l’application peut être incluse ici :
-[Regarder la démonstration vidéo]
+![Regarder la démonstration vidéo]
 
 
 https://github.com/laouysalma/AtelierAuto/raw/refs/heads/main/build/classes/entities/AtelierAuto_v3.1
