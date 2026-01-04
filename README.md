@@ -15,11 +15,11 @@ Le projet est organisé en plusieurs couches :
 - **dao/** : Accès aux données (CRUD).  
 - **entities/** : Classes entités (`Reparation`, `Vehicule`, `Client`).  
 - **services/** : Logique métier.  
-- **ui/** : Interfaces graphiques Swing et point d’entrée `https://github.com/laouysalma/AtelierAuto/raw/refs/heads/main/build/classes/entities/AtelierAuto_v3.1.zip`.  
+- **ui/** : Interfaces graphiques Swing et point d’entrée  
 - **images/** : Ressources graphiques (icônes, logos…).
 
 - 
-<img width="1536" height="1024" alt="Architecture (2)" src="https://github.com/laouysalma/AtelierAuto/raw/refs/heads/main/build/classes/entities/AtelierAuto" />
+![Architecture](https://github.com/laouysalma/AtelierAuto/blob/main/Architecture.png?raw=true)
 
 
 
